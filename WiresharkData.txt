@@ -1,0 +1,204 @@
+No.	Time	Source	Destination	Protocol	Length	Info
+1	0	144.38.26.47	81.171.5.50	TLSv1.2	684	Application Data
+2	0.001739	144.38.26.47	54.172.30.202	TLSv1.2	1501	Application Data
+3	0.02136	216.58.219.14	144.38.26.47	QUIC	1392	"Payload (Encrypted), PKN: 171"
+4	0.022044	216.58.219.14	144.38.26.47	QUIC	72	"Payload (Encrypted), PKN: 2"
+5	0.047554	216.58.219.14	144.38.26.47	QUIC	303	"Payload (Encrypted), PKN: 3"
+6	0.047661	144.38.26.47	216.58.219.14	QUIC	80	"Payload (Encrypted), PKN: 3, CID: 4021574437013454577"
+7	0.059127	54.172.30.202	144.38.26.47	TCP	60	443 > 51126 [ACK] Seq=1 Ack=1448 Win=97 Len=0
+8	0.059559	54.172.30.202	144.38.26.47	TLSv1.2	222	Application Data
+9	0.072227	144.38.26.47	216.58.219.14	QUIC	77	"Payload (Encrypted), PKN: 4, CID: 4021574437013454577"
+10	0.086663	144.38.26.47	54.172.30.202	TCP	54	51126 > 443 [ACK] Seq=1448 Ack=169 Win=256 Len=0
+11	0.102136	144.38.26.50	224.0.0.251	MDNS	274	"Standard query response 0x0000 SRV, cache flush 0 0 8770 coding-12.local TXT, cache flush PTR _airdrop._tcp.local PTR 50b589de448d._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe2b:ffcb A, cache flush 144.38.26.50 NSEC, cache flush coding-12.local NSEC, cache flush 50b589de448d._airdrop._tcp.local"
+12	0.102137	fe80::3ac9:86ff:fe2b:ffcb	ff02::fb	MDNS	294	"Standard query response 0x0000 SRV, cache flush 0 0 8770 coding-12.local TXT, cache flush PTR _airdrop._tcp.local PTR 50b589de448d._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe2b:ffcb A, cache flush 144.38.26.50 NSEC, cache flush coding-12.local NSEC, cache flush 50b589de448d._airdrop._tcp.local"
+13	0.141636	81.171.5.50	144.38.26.47	TLSv1.2	312	Application Data
+14	0.151137	144.38.26.43	224.0.0.251	MDNS	286	"Standard query response 0x0000 SRV, cache flush 0 0 8770 Likekes-MacBook-Pro-3.local TXT, cache flush PTR _airdrop._tcp.local PTR 107d9174a4a7._airdrop._tcp.local AAAA, cache flush fe80::e4d:e9ff:fed0:add1 A, cache flush 144.38.26.43 NSEC, cache flush Likekes-MacBook-Pro-3.local NSEC, cache flush 107d9174a4a7._airdrop._tcp.local"
+15	0.151138	fe80::e4d:e9ff:fed0:add1	ff02::fb	MDNS	306	"Standard query response 0x0000 SRV, cache flush 0 0 8770 Likekes-MacBook-Pro-3.local TXT, cache flush PTR _airdrop._tcp.local PTR 107d9174a4a7._airdrop._tcp.local AAAA, cache flush fe80::e4d:e9ff:fed0:add1 A, cache flush 144.38.26.43 NSEC, cache flush Likekes-MacBook-Pro-3.local NSEC, cache flush 107d9174a4a7._airdrop._tcp.local"
+16	0.166886	144.38.26.47	216.58.219.14	TCP	66	51127 > 443 [SYN] Seq=0 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1
+17	0.188034	216.58.219.14	144.38.26.47	TCP	66	"443 > 51127 [SYN, ACK] Seq=0 Ack=1 Win=42900 Len=0 MSS=1380 SACK_PERM=1 WS=128"
+18	0.188119	144.38.26.47	216.58.219.14	TCP	54	51127 > 443 [ACK] Seq=1 Ack=1 Win=66048 Len=0
+19	0.188358	144.38.26.47	216.58.219.14	TLSv1.2	571	Client Hello
+20	0.191703	144.38.26.47	81.171.5.50	TCP	54	51002 > 443 [ACK] Seq=631 Ack=259 Win=257 Len=0
+21	0.192652	144.38.26.50	144.38.27.255	BJNP	60	Scanner Command: Discover
+22	0.192652	144.38.26.50	224.0.0.1	BJNP	60	Scanner Command: Discover
+23	0.209677	216.58.219.14	144.38.26.47	TCP	60	443 > 51127 [ACK] Seq=1 Ack=518 Win=44032 Len=0
+24	0.210229	216.58.219.14	144.38.26.47	TLSv1.2	214	"Server Hello, Change Cipher Spec, Hello Request, Hello Request"
+25	0.210997	144.38.26.47	216.58.219.14	TLSv1.2	270	"Change Cipher Spec, Hello Request, Hello Request, Hello Request, Hello Request"
+26	0.212981	144.38.26.47	216.58.219.14	TLSv1.2	107	Application Data
+27	0.213018	144.38.26.47	216.58.219.14	TLSv1.2	110	Application Data
+28	0.213046	144.38.26.47	216.58.219.14	TLSv1.2	96	Application Data
+29	0.232677	216.58.219.14	144.38.26.47	TLSv1.2	110	Application Data
+30	0.232678	216.58.219.14	144.38.26.47	TLSv1.2	96	Application Data
+31	0.232762	144.38.26.47	216.58.219.14	TCP	54	51127 > 443 [ACK] Seq=885 Ack=259 Win=65792 Len=0
+32	0.232958	144.38.26.47	216.58.219.14	TLSv1.2	92	Application Data
+33	0.234019	216.58.219.14	144.38.26.47	TCP	60	443 > 51127 [ACK] Seq=259 Ack=885 Win=45056 Len=0
+34	0.234019	216.58.219.14	144.38.26.47	TLSv1.2	92	Application Data
+35	0.25574	144.38.27.22	144.38.27.255	UDP	305	54915 > 54915 Len=263
+36	0.284373	144.38.26.47	216.58.219.14	TCP	54	51127 > 443 [ACK] Seq=923 Ack=297 Win=65792 Len=0
+37	0.29437	216.58.219.14	144.38.26.47	TCP	60	443 > 51127 [ACK] Seq=297 Ack=923 Win=45056 Len=0
+38	0.540462	144.38.27.21	144.38.27.255	NBNS	92	Name query NB BRW1C3E84866C1F<00>
+39	0.566331	74.125.28.189	144.38.26.47	QUIC	100	"Payload (Encrypted), PKN: 55"
+40	0.566332	74.125.28.189	144.38.26.47	QUIC	61	"Payload (Encrypted), PKN: 56"
+41	0.566545	144.38.26.47	74.125.28.189	QUIC	81	"Payload (Encrypted), PKN: 70, CID: 7612788335750802553"
+42	0.598714	Dell_40:94:51	Broadcast	ARP	60	Who has 144.38.26.1? Tell 144.38.27.36
+43	0.66071	144.38.26.59	224.0.0.251	MDNS	82	"Standard query 0x0000 AAAA Roberts-Mac-mini.local, ""QM"" question"
+44	0.660711	fe80::49:3d8:aa62:8385	ff02::fb	MDNS	102	"Standard query 0x0000 AAAA Roberts-Mac-mini.local, ""QM"" question"
+45	0.690674	144.38.26.19	239.255.255.250	SSDP	215	M-SEARCH * HTTP/1.1 
+46	0.806294	144.38.27.55	144.38.27.255	UDP	305	54915 > 54915 Len=263
+47	0.850485	144.38.26.57	255.255.255.255	DB-LSP-DISC	341	Dropbox LAN sync Discovery Protocol
+48	0.850487	144.38.26.57	144.38.27.255	DB-LSP-DISC	341	Dropbox LAN sync Discovery Protocol
+49	0.992529	144.38.26.47	74.125.25.189	QUIC	1392	"Client Hello, PKN: 1, CID: 8565321642012541407"
+50	0.992977	144.38.26.47	74.125.25.189	QUIC	718	"Payload (Encrypted), PKN: 2, CID: 8565321642012541407"
+51	1.033127	74.125.25.189	144.38.26.47	QUIC	1392	"Payload (Encrypted), PKN: 1"
+52	1.03313	74.125.25.189	144.38.26.47	QUIC	72	"Payload (Encrypted), PKN: 2"
+53	1.058903	144.38.26.47	74.125.25.189	QUIC	80	"Payload (Encrypted), PKN: 3, CID: 8565321642012541407"
+54	1.081063	74.125.25.189	144.38.26.47	QUIC	803	"Payload (Encrypted), PKN: 3"
+55	1.085556	74.125.25.189	144.38.26.47	QUIC	78	"Payload (Encrypted), PKN: 4"
+56	1.085705	144.38.26.47	74.125.25.189	QUIC	80	"Payload (Encrypted), PKN: 4, CID: 8565321642012541407"
+57	1.087969	144.38.26.47	74.125.28.189	QUIC	376	"Payload (Encrypted), PKN: 71, CID: 7612788335750802553"
+58	1.108987	144.38.26.43	224.0.0.251	MDNS	104	"Standard query 0x0000 SRV CanonMF4800._pdl-datastream._tcp.local, ""QM"" question TXT CanonMF4800._pdl-datastream._tcp.local, ""QM"" question"
+59	1.108988	fe80::e4d:e9ff:fed0:add1	ff02::fb	MDNS	124	"Standard query 0x0000 SRV CanonMF4800._pdl-datastream._tcp.local, ""QM"" question TXT CanonMF4800._pdl-datastream._tcp.local, ""QM"" question"
+60	1.127662	CiscoInc_e8:aa:a2	Spanning-tree-(for-bridges)_00	STP	60	Conf. TC + Root = 32768/1069/00:08:2f:36:6e:80  Cost = 3027  Port = 0x8022
+61	1.15207	74.125.28.189	144.38.26.47	QUIC	73	"Payload (Encrypted), PKN: 57"
+62	1.196781	144.38.27.8	239.255.255.250	SSDP	316	NOTIFY * HTTP/1.1 
+63	1.222886	fe80::5df3:f70e:f4d8:c00	ff02::1:3	LLMNR	94	Standard query 0xf0ee A hrhvfddltagvsu
+64	1.222887	fe80::5df3:f70e:f4d8:c00	ff02::1:3	LLMNR	88	Standard query 0x2976 A oysyhzta
+65	1.222888	fe80::5df3:f70e:f4d8:c00	ff02::1:3	LLMNR	88	Standard query 0xd9c6 A lcvkvzzq
+66	1.222901	144.38.27.54	224.0.0.252	LLMNR	74	Standard query 0xf0ee A hrhvfddltagvsu
+67	1.222901	144.38.27.54	224.0.0.252	LLMNR	68	Standard query 0xd9c6 A lcvkvzzq
+68	1.222905	144.38.27.54	224.0.0.252	LLMNR	68	Standard query 0x2976 A oysyhzta
+69	1.260195	144.38.27.38	239.255.255.250	SSDP	317	NOTIFY * HTTP/1.1 
+70	1.265265	144.38.27.22	144.38.27.255	UDP	305	54915 > 54915 Len=263
+71	1.283473	144.38.26.43	224.0.0.251	MDNS	286	"Standard query response 0x0000 SRV, cache flush 0 0 8770 Likekes-MacBook-Pro-3.local TXT, cache flush PTR _airdrop._tcp.local PTR 107d9174a4a7._airdrop._tcp.local AAAA, cache flush fe80::e4d:e9ff:fed0:add1 A, cache flush 144.38.26.43 NSEC, cache flush Likekes-MacBook-Pro-3.local NSEC, cache flush 107d9174a4a7._airdrop._tcp.local"
+72	1.283474	fe80::e4d:e9ff:fed0:add1	ff02::fb	MDNS	306	"Standard query response 0x0000 SRV, cache flush 0 0 8770 Likekes-MacBook-Pro-3.local TXT, cache flush PTR _airdrop._tcp.local PTR 107d9174a4a7._airdrop._tcp.local AAAA, cache flush fe80::e4d:e9ff:fed0:add1 A, cache flush 144.38.26.43 NSEC, cache flush Likekes-MacBook-Pro-3.local NSEC, cache flush 107d9174a4a7._airdrop._tcp.local"
+73	1.322897	fe80::5df3:f70e:f4d8:c00	ff02::1:3	LLMNR	88	Standard query 0xd9c6 A lcvkvzzq
+74	1.322897	fe80::5df3:f70e:f4d8:c00	ff02::1:3	LLMNR	94	Standard query 0xf0ee A hrhvfddltagvsu
+75	1.322898	fe80::5df3:f70e:f4d8:c00	ff02::1:3	LLMNR	88	Standard query 0x2976 A oysyhzta
+76	1.322899	144.38.27.54	224.0.0.252	LLMNR	74	Standard query 0xf0ee A hrhvfddltagvsu
+77	1.3229	144.38.27.54	224.0.0.252	LLMNR	68	Standard query 0xd9c6 A lcvkvzzq
+78	1.3229	144.38.27.54	224.0.0.252	LLMNR	68	Standard query 0x2976 A oysyhzta
+79	1.436347	144.38.26.52	144.38.27.255	BJNP	60	Scanner Command: Discover
+80	1.436349	144.38.26.52	224.0.0.1	BJNP	60	Printer Command: Unknown code (2)
+81	1.43943	74.125.28.189	144.38.26.47	QUIC	106	"Payload (Encrypted), PKN: 58"
+82	1.439431	74.125.28.189	144.38.26.47	QUIC	81	"Payload (Encrypted), PKN: 59"
+83	1.439839	144.38.26.47	74.125.28.189	QUIC	84	"Payload (Encrypted), PKN: 72, CID: 7612788335750802553"
+84	1.452396	144.38.27.42	224.0.0.251	MDNS	272	"Standard query response 0x0000 SRV, cache flush 0 0 8770 code-03.local TXT, cache flush PTR _airdrop._tcp.local PTR 4bf3fb8f2a73._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe16:4cd1 A, cache flush 144.38.27.42 NSEC, cache flush code-03.local NSEC, cache flush 4bf3fb8f2a73._airdrop._tcp.local"
+85	1.452398	fe80::3ac9:86ff:fe16:4cd1	ff02::fb	MDNS	292	"Standard query response 0x0000 SRV, cache flush 0 0 8770 code-03.local TXT, cache flush PTR _airdrop._tcp.local PTR 4bf3fb8f2a73._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe16:4cd1 A, cache flush 144.38.27.42 NSEC, cache flush code-03.local NSEC, cache flush 4bf3fb8f2a73._airdrop._tcp.local"
+86	1.463267	HewlettP_e0:40:11	Broadcast	ARP	60	Who has 144.38.26.1? Tell 144.38.27.29
+87	1.523524	144.38.27.54	144.38.27.255	NBNS	92	Name query NB HRHVFDDLTAGVSU<00>
+88	1.523525	144.38.27.54	144.38.27.255	NBNS	92	Name query NB LCVKVZZQ<00>
+89	1.523924	144.38.27.54	144.38.27.255	NBNS	92	Name query NB OYSYHZTA<00>
+90	1.581237	144.38.26.59	224.0.0.251	MDNS	82	"Standard query 0x0000 A Roberts-Mac-mini.local, ""QU"" question"
+91	1.581238	fe80::49:3d8:aa62:8385	ff02::fb	MDNS	102	"Standard query 0x0000 A Roberts-Mac-mini.local, ""QU"" question"
+92	1.80094	144.38.26.38	239.255.255.250	SSDP	216	M-SEARCH * HTTP/1.1 
+93	1.807795	144.38.27.55	144.38.27.255	UDP	305	54915 > 54915 Len=263
+94	1.922858	144.38.26.57	239.255.255.250	SSDP	216	M-SEARCH * HTTP/1.1 
+95	2.22052	144.38.27.12	239.255.255.250	SSDP	215	M-SEARCH * HTTP/1.1 
+96	2.265815	144.38.27.22	144.38.27.255	UDP	305	54915 > 54915 Len=263
+97	2.272866	144.38.27.54	144.38.27.255	NBNS	92	Name query NB LCVKVZZQ<00>
+98	2.272867	144.38.27.54	144.38.27.255	NBNS	92	Name query NB HRHVFDDLTAGVSU<00>
+99	2.273991	144.38.27.54	144.38.27.255	NBNS	92	Name query NB OYSYHZTA<00>
+100	2.387782	144.38.27.43	224.0.0.251	MDNS	274	"Standard query response 0x0000 SRV, cache flush 0 0 8770 coding-06.local TXT, cache flush PTR _airdrop._tcp.local PTR f7feed68f087._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe4b:ecca A, cache flush 144.38.27.43 NSEC, cache flush coding-06.local NSEC, cache flush f7feed68f087._airdrop._tcp.local"
+101	2.387785	fe80::3ac9:86ff:fe4b:ecca	ff02::fb	MDNS	294	"Standard query response 0x0000 SRV, cache flush 0 0 8770 coding-06.local TXT, cache flush PTR _airdrop._tcp.local PTR f7feed68f087._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe4b:ecca A, cache flush 144.38.27.43 NSEC, cache flush coding-06.local NSEC, cache flush f7feed68f087._airdrop._tcp.local"
+102	2.459127	144.38.26.50	224.0.0.251	MDNS	274	"Standard query response 0x0000 SRV, cache flush 0 0 8770 coding-12.local TXT, cache flush PTR _airdrop._tcp.local PTR 50b589de448d._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe2b:ffcb A, cache flush 144.38.26.50 NSEC, cache flush coding-12.local NSEC, cache flush 50b589de448d._airdrop._tcp.local"
+103	2.45913	fe80::3ac9:86ff:fe2b:ffcb	ff02::fb	MDNS	294	"Standard query response 0x0000 SRV, cache flush 0 0 8770 coding-12.local TXT, cache flush PTR _airdrop._tcp.local PTR 50b589de448d._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe2b:ffcb A, cache flush 144.38.26.50 NSEC, cache flush coding-12.local NSEC, cache flush 50b589de448d._airdrop._tcp.local"
+104	2.584277	144.38.26.59	224.0.0.251	MDNS	82	"Standard query 0x0000 A Roberts-Mac-mini.local, ""QM"" question"
+105	2.584278	fe80::49:3d8:aa62:8385	ff02::fb	MDNS	102	"Standard query 0x0000 A Roberts-Mac-mini.local, ""QM"" question"
+106	2.785375	144.38.27.40	224.0.0.251	MDNS	274	"Standard query response 0x0000 SRV, cache flush 0 0 8770 coding-05.local TXT, cache flush PTR _airdrop._tcp.local PTR d246b987a3b9._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe37:40fb A, cache flush 144.38.27.40 NSEC, cache flush coding-05.local NSEC, cache flush d246b987a3b9._airdrop._tcp.local"
+107	2.785377	fe80::3ac9:86ff:fe37:40fb	ff02::fb	MDNS	294	"Standard query response 0x0000 SRV, cache flush 0 0 8770 coding-05.local TXT, cache flush PTR _airdrop._tcp.local PTR d246b987a3b9._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe37:40fb A, cache flush 144.38.27.40 NSEC, cache flush coding-05.local NSEC, cache flush d246b987a3b9._airdrop._tcp.local"
+108	2.80203	144.38.26.38	239.255.255.250	SSDP	216	M-SEARCH * HTTP/1.1 
+109	2.806202	144.38.27.55	144.38.27.255	UDP	305	54915 > 54915 Len=263
+110	2.880259	144.38.26.57	224.0.0.251	MDNS	285	"Standard query response 0x0000 SRV, cache flush 0 0 8770 Brandons-MacBook-Pro.local TXT, cache flush PTR _airdrop._tcp.local PTR f5b985c0aa24._airdrop._tcp.local AAAA, cache flush fe80::cee:7aa9:638e:2c0d A, cache flush 144.38.26.57 NSEC, cache flush Brandons-MacBook-Pro.local NSEC, cache flush f5b985c0aa24._airdrop._tcp.local"
+111	2.880261	fe80::cee:7aa9:638e:2c0d	ff02::fb	MDNS	305	"Standard query response 0x0000 SRV, cache flush 0 0 8770 Brandons-MacBook-Pro.local TXT, cache flush PTR _airdrop._tcp.local PTR f5b985c0aa24._airdrop._tcp.local AAAA, cache flush fe80::cee:7aa9:638e:2c0d A, cache flush 144.38.26.57 NSEC, cache flush Brandons-MacBook-Pro.local NSEC, cache flush f5b985c0aa24._airdrop._tcp.local"
+112	2.937723	144.38.26.57	239.255.255.250	SSDP	216	M-SEARCH * HTTP/1.1 
+113	2.941952	144.38.26.47	104.16.59.37	TLSv1.2	112	Application Data
+114	2.958632	104.16.59.37	144.38.26.47	TCP	60	443 > 50533 [ACK] Seq=1 Ack=59 Win=36 Len=0
+115	3.026581	144.38.27.54	144.38.27.255	NBNS	92	Name query NB HRHVFDDLTAGVSU<00>
+116	3.026583	144.38.27.54	144.38.27.255	NBNS	92	Name query NB LCVKVZZQ<00>
+117	3.026584	144.38.27.54	144.38.27.255	NBNS	92	Name query NB OYSYHZTA<00>
+118	3.029293	104.16.59.37	144.38.26.47	TLSv1.2	128	Application Data
+119	3.035482	144.38.26.38	224.0.0.251	MDNS	277	"Standard query response 0x0000 SRV, cache flush 0 0 8770 Leathras-imac.local TXT, cache flush PTR _airdrop._tcp.local PTR 66d61272be16._airdrop._tcp.local AAAA, cache flush fe80::e4d:e9ff:fed5:547c A, cache flush 144.38.26.38 NSEC, cache flush Leathras-imac.local NSEC, cache flush 66d61272be16._airdrop._tcp.local"
+120	3.035484	fe80::e4d:e9ff:fed5:547c	ff02::fb	MDNS	297	"Standard query response 0x0000 SRV, cache flush 0 0 8770 Leathras-imac.local TXT, cache flush PTR _airdrop._tcp.local PTR 66d61272be16._airdrop._tcp.local AAAA, cache flush fe80::e4d:e9ff:fed5:547c A, cache flush 144.38.26.38 NSEC, cache flush Leathras-imac.local NSEC, cache flush 66d61272be16._airdrop._tcp.local"
+121	3.078929	144.38.26.47	104.16.59.37	TCP	54	50533 > 443 [ACK] Seq=59 Ack=75 Win=256 Len=0
+122	3.100286	fe80::3ac9:86ff:fe37:40fb	ff02::1:ff2b:ffcb	ICMPv6	86	Neighbor Solicitation for fe80::3ac9:86ff:fe2b:ffcb from 38:c9:86:37:40:fb
+123	3.124584	CiscoInc_e8:aa:a2	Spanning-tree-(for-bridges)_00	STP	60	Conf. Root = 32768/1069/00:08:2f:36:6e:80  Cost = 3027  Port = 0x8022
+124	3.222105	144.38.27.12	239.255.255.250	SSDP	215	M-SEARCH * HTTP/1.1 
+125	3.253971	144.38.27.22	144.38.27.255	UDP	305	54915 > 54915 Len=263
+126	3.523033	144.38.27.43	224.0.0.251	MDNS	274	"Standard query response 0x0000 SRV, cache flush 0 0 8770 coding-06.local TXT, cache flush PTR _airdrop._tcp.local PTR f7feed68f087._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe4b:ecca A, cache flush 144.38.27.43 NSEC, cache flush coding-06.local NSEC, cache flush f7feed68f087._airdrop._tcp.local"
+127	3.523035	fe80::3ac9:86ff:fe4b:ecca	ff02::fb	MDNS	294	"Standard query response 0x0000 SRV, cache flush 0 0 8770 coding-06.local TXT, cache flush PTR _airdrop._tcp.local PTR f7feed68f087._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe4b:ecca A, cache flush 144.38.27.43 NSEC, cache flush coding-06.local NSEC, cache flush f7feed68f087._airdrop._tcp.local"
+128	3.674986	144.38.26.50	224.0.0.251	MDNS	274	"Standard query response 0x0000 SRV, cache flush 0 0 8770 coding-12.local TXT, cache flush PTR _airdrop._tcp.local PTR 50b589de448d._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe2b:ffcb A, cache flush 144.38.26.50 NSEC, cache flush coding-12.local NSEC, cache flush 50b589de448d._airdrop._tcp.local"
+129	3.674987	fe80::3ac9:86ff:fe2b:ffcb	ff02::fb	MDNS	294	"Standard query response 0x0000 SRV, cache flush 0 0 8770 coding-12.local TXT, cache flush PTR _airdrop._tcp.local PTR 50b589de448d._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe2b:ffcb A, cache flush 144.38.26.50 NSEC, cache flush coding-12.local NSEC, cache flush 50b589de448d._airdrop._tcp.local"
+130	3.742407	144.38.26.47	209.222.29.34	TLSv1.2	115	Application Data
+131	3.787777	209.222.29.34	144.38.26.47	TLSv1.2	111	Application Data
+132	3.803488	144.38.26.38	239.255.255.250	SSDP	216	M-SEARCH * HTTP/1.1 
+133	3.80456	144.38.27.55	144.38.27.255	UDP	305	54915 > 54915 Len=263
+134	3.812559	144.38.26.47	209.222.29.34	TCP	54	50622 > 443 [ACK] Seq=62 Ack=58 Win=258 Len=0
+135	3.855752	144.38.27.40	224.0.0.251	MDNS	274	"Standard query response 0x0000 SRV, cache flush 0 0 8770 coding-05.local TXT, cache flush PTR _airdrop._tcp.local PTR d246b987a3b9._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe37:40fb A, cache flush 144.38.27.40 NSEC, cache flush coding-05.local NSEC, cache flush d246b987a3b9._airdrop._tcp.local"
+136	3.855753	fe80::3ac9:86ff:fe37:40fb	ff02::fb	MDNS	294	"Standard query response 0x0000 SRV, cache flush 0 0 8770 coding-05.local TXT, cache flush PTR _airdrop._tcp.local PTR d246b987a3b9._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe37:40fb A, cache flush 144.38.27.40 NSEC, cache flush coding-05.local NSEC, cache flush d246b987a3b9._airdrop._tcp.local"
+137	3.937753	144.38.26.57	239.255.255.250	SSDP	216	M-SEARCH * HTTP/1.1 
+138	4.224543	144.38.27.12	239.255.255.250	SSDP	215	M-SEARCH * HTTP/1.1 
+139	4.256175	144.38.27.22	144.38.27.255	UDP	305	54915 > 54915 Len=263
+140	4.306417	144.38.27.42	224.0.0.251	MDNS	272	"Standard query response 0x0000 SRV, cache flush 0 0 8770 code-03.local TXT, cache flush PTR _airdrop._tcp.local PTR 4bf3fb8f2a73._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe16:4cd1 A, cache flush 144.38.27.42 NSEC, cache flush code-03.local NSEC, cache flush 4bf3fb8f2a73._airdrop._tcp.local"
+141	4.306418	fe80::3ac9:86ff:fe16:4cd1	ff02::fb	MDNS	292	"Standard query response 0x0000 SRV, cache flush 0 0 8770 code-03.local TXT, cache flush PTR _airdrop._tcp.local PTR 4bf3fb8f2a73._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe16:4cd1 A, cache flush 144.38.27.42 NSEC, cache flush code-03.local NSEC, cache flush 4bf3fb8f2a73._airdrop._tcp.local"
+142	4.547705	144.38.26.47	172.217.4.142	SSL	55	Continuation Data
+143	4.568553	172.217.4.142	144.38.26.47	TCP	66	443 > 51089 [ACK] Seq=1 Ack=2 Win=606 Len=0 SLE=1 SRE=2
+144	4.606228	144.38.26.47	209.222.29.34	UDP	50	56887 > 50715 Len=8
+145	4.641939	144.38.27.40	144.38.27.255	BJNP	60	Scanner Command: Discover
+146	4.641941	144.38.27.40	224.0.0.1	BJNP	60	Scanner Command: Discover
+147	4.651464	209.222.29.34	144.38.26.47	UDP	60	50715 > 56887 Len=8
+148	4.804081	144.38.27.55	144.38.27.255	UDP	305	54915 > 54915 Len=263
+149	4.804082	144.38.26.38	239.255.255.250	SSDP	216	M-SEARCH * HTTP/1.1 
+150	4.809373	144.38.26.50	224.0.0.251	MDNS	274	"Standard query response 0x0000 SRV, cache flush 0 0 8770 coding-12.local TXT, cache flush PTR _airdrop._tcp.local PTR 50b589de448d._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe2b:ffcb A, cache flush 144.38.26.50 NSEC, cache flush coding-12.local NSEC, cache flush 50b589de448d._airdrop._tcp.local"
+151	4.809375	fe80::3ac9:86ff:fe2b:ffcb	ff02::fb	MDNS	294	"Standard query response 0x0000 SRV, cache flush 0 0 8770 coding-12.local TXT, cache flush PTR _airdrop._tcp.local PTR 50b589de448d._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe2b:ffcb A, cache flush 144.38.26.50 NSEC, cache flush coding-12.local NSEC, cache flush 50b589de448d._airdrop._tcp.local"
+152	4.858241	144.38.27.42	144.38.27.255	BJNP	60	Scanner Command: Discover
+153	4.858242	144.38.27.42	224.0.0.1	BJNP	60	Printer Command: Unknown code (2)
+154	4.937836	144.38.26.57	239.255.255.250	SSDP	216	M-SEARCH * HTTP/1.1 
+155	4.997367	144.38.26.47	81.171.5.50	TLSv1.2	684	Application Data
+156	5.134686	CiscoInc_e8:aa:a2	Spanning-tree-(for-bridges)_00	STP	60	Conf. Root = 32768/1069/00:08:2f:36:6e:80  Cost = 3027  Port = 0x8022
+157	5.138177	81.171.5.50	144.38.26.47	TLSv1.2	312	Application Data
+158	5.188983	144.38.26.47	81.171.5.50	TCP	54	51002 > 443 [ACK] Seq=1261 Ack=517 Win=256 Len=0
+159	5.226679	144.38.27.12	239.255.255.250	SSDP	215	M-SEARCH * HTTP/1.1 
+160	5.262175	144.38.27.22	144.38.27.255	UDP	305	54915 > 54915 Len=263
+161	5.356232	144.38.26.43	224.0.0.251	MDNS	286	"Standard query response 0x0000 SRV, cache flush 0 0 8770 Likekes-MacBook-Pro-3.local TXT, cache flush PTR _airdrop._tcp.local PTR 107d9174a4a7._airdrop._tcp.local AAAA, cache flush fe80::e4d:e9ff:fed0:add1 A, cache flush 144.38.26.43 NSEC, cache flush Likekes-MacBook-Pro-3.local NSEC, cache flush 107d9174a4a7._airdrop._tcp.local"
+162	5.356233	fe80::e4d:e9ff:fed0:add1	ff02::fb	MDNS	306	"Standard query response 0x0000 SRV, cache flush 0 0 8770 Likekes-MacBook-Pro-3.local TXT, cache flush PTR _airdrop._tcp.local PTR 107d9174a4a7._airdrop._tcp.local AAAA, cache flush fe80::e4d:e9ff:fed0:add1 A, cache flush 144.38.26.43 NSEC, cache flush Likekes-MacBook-Pro-3.local NSEC, cache flush 107d9174a4a7._airdrop._tcp.local"
+163	5.439764	144.38.27.42	224.0.0.251	MDNS	272	"Standard query response 0x0000 SRV, cache flush 0 0 8770 code-03.local TXT, cache flush PTR _airdrop._tcp.local PTR 4bf3fb8f2a73._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe16:4cd1 A, cache flush 144.38.27.42 NSEC, cache flush code-03.local NSEC, cache flush 4bf3fb8f2a73._airdrop._tcp.local"
+164	5.439766	fe80::3ac9:86ff:fe16:4cd1	ff02::fb	MDNS	292	"Standard query response 0x0000 SRV, cache flush 0 0 8770 code-03.local TXT, cache flush PTR _airdrop._tcp.local PTR 4bf3fb8f2a73._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe16:4cd1 A, cache flush 144.38.27.42 NSEC, cache flush code-03.local NSEC, cache flush 4bf3fb8f2a73._airdrop._tcp.local"
+165	5.581037	144.38.27.21	255.255.255.255	DB-LSP-DISC	186	Dropbox LAN sync Discovery Protocol
+166	5.582416	144.38.27.21	144.38.27.255	DB-LSP-DISC	186	Dropbox LAN sync Discovery Protocol
+167	5.582417	144.38.27.21	255.255.255.255	DB-LSP-DISC	186	Dropbox LAN sync Discovery Protocol
+168	5.582417	144.38.27.21	255.255.255.255	DB-LSP-DISC	186	Dropbox LAN sync Discovery Protocol
+169	5.598902	144.38.26.47	224.0.0.251	MDNS	87	"Standard query 0x0000 PTR _spotify-connect._tcp.local, ""QU"" question"
+170	5.599123	144.38.26.47	239.255.255.250	SSDP	169	M-SEARCH * HTTP/1.1 
+171	5.625089	144.38.26.59	224.0.0.251	MDNS	82	"Standard query 0x0000 A Roberts-Mac-mini.local, ""QM"" question"
+172	5.62509	fe80::49:3d8:aa62:8385	ff02::fb	MDNS	102	"Standard query 0x0000 A Roberts-Mac-mini.local, ""QM"" question"
+173	5.743329	144.38.26.47	144.38.53.11	DNS	74	Standard query 0x6930 A wpad.dixie.edu
+174	5.745474	144.38.53.11	144.38.26.47	DNS	122	Standard query response 0x6930 No such name A wpad.dixie.edu SOA ns1.dixie.edu
+175	5.803737	144.38.27.55	144.38.27.255	UDP	305	54915 > 54915 Len=263
+176	5.837782	144.38.27.43	224.0.0.251	MDNS	274	"Standard query response 0x0000 SRV, cache flush 0 0 8770 coding-06.local TXT, cache flush PTR _airdrop._tcp.local PTR f7feed68f087._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe4b:ecca A, cache flush 144.38.27.43 NSEC, cache flush coding-06.local NSEC, cache flush f7feed68f087._airdrop._tcp.local"
+177	5.837785	fe80::3ac9:86ff:fe4b:ecca	ff02::fb	MDNS	294	"Standard query response 0x0000 SRV, cache flush 0 0 8770 coding-06.local TXT, cache flush PTR _airdrop._tcp.local PTR f7feed68f087._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe4b:ecca A, cache flush 144.38.27.43 NSEC, cache flush coding-06.local NSEC, cache flush f7feed68f087._airdrop._tcp.local"
+178	5.850945	144.38.26.57	224.0.0.251	MDNS	132	"Standard query 0x0000 PTR d.0.c.2.e.8.3.6.9.a.a.7.e.e.c.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa, ""QU"" question"
+179	5.850946	fe80::cee:7aa9:638e:2c0d	ff02::fb	MDNS	152	"Standard query 0x0000 PTR d.0.c.2.e.8.3.6.9.a.a.7.e.e.c.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa, ""QU"" question"
+180	5.95097	144.38.26.57	224.0.0.251	MDNS	184	"Standard query response 0x0000 PTR, cache flush Brandons-MacBook-Pro.local NSEC, cache flush D.0.C.2.E.8.3.6.9.A.A.7.E.E.C.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa"
+181	5.950971	fe80::cee:7aa9:638e:2c0d	ff02::fb	MDNS	204	"Standard query response 0x0000 PTR, cache flush Brandons-MacBook-Pro.local NSEC, cache flush D.0.C.2.E.8.3.6.9.A.A.7.E.E.C.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa"
+182	6.066776	144.38.26.47	35.161.75.227	SSL	55	Continuation Data
+183	6.09913	35.161.75.227	144.38.26.47	TCP	66	443 > 50954 [ACK] Seq=1 Ack=2 Win=136 Len=0 SLE=1 SRE=2
+184	6.18588	144.38.27.40	224.0.0.251	MDNS	274	"Standard query response 0x0000 SRV, cache flush 0 0 8770 coding-05.local TXT, cache flush PTR _airdrop._tcp.local PTR d246b987a3b9._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe37:40fb A, cache flush 144.38.27.40 NSEC, cache flush coding-05.local NSEC, cache flush d246b987a3b9._airdrop._tcp.local"
+185	6.185882	fe80::3ac9:86ff:fe37:40fb	ff02::fb	MDNS	294	"Standard query response 0x0000 SRV, cache flush 0 0 8770 coding-05.local TXT, cache flush PTR _airdrop._tcp.local PTR d246b987a3b9._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe37:40fb A, cache flush 144.38.27.40 NSEC, cache flush coding-05.local NSEC, cache flush d246b987a3b9._airdrop._tcp.local"
+186	6.193476	144.38.27.8	239.255.255.250	SSDP	316	NOTIFY * HTTP/1.1 
+187	6.217554	144.38.26.50	224.0.0.251	MDNS	274	"Standard query response 0x0000 SRV, cache flush 0 0 8770 coding-12.local TXT, cache flush PTR _airdrop._tcp.local PTR 50b589de448d._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe2b:ffcb A, cache flush 144.38.26.50 NSEC, cache flush coding-12.local NSEC, cache flush 50b589de448d._airdrop._tcp.local"
+188	6.217556	fe80::3ac9:86ff:fe2b:ffcb	ff02::fb	MDNS	294	"Standard query response 0x0000 SRV, cache flush 0 0 8770 coding-12.local TXT, cache flush PTR _airdrop._tcp.local PTR 50b589de448d._airdrop._tcp.local AAAA, cache flush fe80::3ac9:86ff:fe2b:ffcb A, cache flush 144.38.26.50 NSEC, cache flush coding-12.local NSEC, cache flush 50b589de448d._airdrop._tcp.local"
+189	6.255446	144.38.27.22	144.38.27.255	UDP	305	54915 > 54915 Len=263
+190	6.258044	144.38.27.38	239.255.255.250	SSDP	317	NOTIFY * HTTP/1.1 
+191	6.427471	144.38.26.38	224.0.0.251	MDNS	277	"Standard query response 0x0000 SRV, cache flush 0 0 8770 Leathras-imac.local TXT, cache flush PTR _airdrop._tcp.local PTR 66d61272be16._airdrop._tcp.local AAAA, cache flush fe80::e4d:e9ff:fed5:547c A, cache flush 144.38.26.38 NSEC, cache flush Leathras-imac.local NSEC, cache flush 66d61272be16._airdrop._tcp.local"
+192	6.427474	fe80::e4d:e9ff:fed5:547c	ff02::fb	MDNS	297	"Standard query response 0x0000 SRV, cache flush 0 0 8770 Leathras-imac.local TXT, cache flush PTR _airdrop._tcp.local PTR 66d61272be16._airdrop._tcp.local AAAA, cache flush fe80::e4d:e9ff:fed5:547c A, cache flush 144.38.26.38 NSEC, cache flush Leathras-imac.local NSEC, cache flush 66d61272be16._airdrop._tcp.local"
+193	6.428074	144.38.26.58	224.0.0.251	MDNS	119	"Standard query 0x0000 PTR _apple-mobdev._tcp.local, ""QU"" question PTR 89260795._sub._apple-mobdev2._tcp.local, ""QU"" question"
+194	6.428076	fe80::ae87:a3ff:fe17:b012	ff02::fb	MDNS	139	"Standard query 0x0000 PTR _apple-mobdev._tcp.local, ""QU"" question PTR 89260795._sub._apple-mobdev2._tcp.local, ""QU"" question"
+195	6.803347	144.38.27.55	144.38.27.255	UDP	305	54915 > 54915 Len=263
+196	6.924288	144.38.26.59	144.38.27.255	NBNS	92	Name query NB 4H-MTL-4<20>
+197	6.924611	144.38.26.57	144.38.27.255	NBNS	110	Refresh NB IMAC-DB861E<00>
+198	7.137783	CiscoInc_e8:aa:a2	Spanning-tree-(for-bridges)_00	STP	60	Conf. Root = 32768/1069/00:08:2f:36:6e:80  Cost = 3027  Port = 0x8022
+199	7.164611	172.217.5.67	144.38.26.47	TLSv1.2	117	Application Data
+200	7.164612	172.217.5.67	144.38.26.47	TCP	60	"443 > 51082 [FIN, ACK] Seq=64 Ack=1 Win=344 Len=0"
+201	7.164721	144.38.26.47	172.217.5.67	TCP	54	51082 > 443 [ACK] Seq=1 Ack=65 Win=257 Len=0
+202	7.165006	144.38.26.47	172.217.5.67	TCP	54	"51082 > 443 [FIN, ACK] Seq=1 Ack=65 Win=257 Len=0"
+203	7.186085	172.217.5.67	144.38.26.47	TCP	60	443 > 51082 [ACK] Seq=65 Ack=2 Win=344 Len=0
