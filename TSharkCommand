@@ -1,0 +1,12 @@
+tshark -i eth0 -c 1000 -l | curl -T "-" ftp://192.168.1.1/disc0_part1/hello3.txt --user root:codecampcodecamp
+
+tshark -i eth0 -T fields -e frame.time_relative -e ip.src -e ip.dst -e ip.proto -e frame.len -E separator=',' -l | curl -T "-" ftp://192.168.1.1/disc0_part1/hello3.txt --user root:codecampcodecamp
+
+install tshark with 
+'apt-get install tshark' on your linux machine or vm.
+
+192.168.1.1 is whatever your linux machine's ip address is.
+
+you can set up an ftp server on your linux machine with an easy google tutorial
+
+queue the unity program to send an http request to the ftp server and pull the text file then parse it there for input to the command.
