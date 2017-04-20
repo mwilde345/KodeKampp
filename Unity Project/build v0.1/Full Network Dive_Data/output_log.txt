@@ -1,0 +1,305 @@
+Mono path[0] = 'E:/Storage/Projects/Project NFD/CodeCampSingle/Full Network Dive_Data/Managed'
+Mono path[1] = 'E:/Storage/Projects/Project NFD/CodeCampSingle/Full Network Dive_Data/Mono'
+Mono config path = 'E:/Storage/Projects/Project NFD/CodeCampSingle/Full Network Dive_Data/Mono/etc'
+PlayerConnection initialized from E:/Storage/Projects/Project NFD/CodeCampSingle/Full Network Dive_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55350
+Multi-casting "[IP] 192.168.1.108 [Port] 55350 [Flags] 2 [Guid] 705702078 [EditorId] 1330347711 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-1NHJB9J) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [192.168.1.108:55350]
+Initialize engine version: 5.4.2f2 (b7e030c65c9b)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon (TM) R9 Fury Series (ID=0x7300)
+    Vendor:   ATI
+    VRAM:     3072 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\Storage\Projects\Project NFD\CodeCampSingle\Full Network Dive_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\Storage\Projects\Project NFD\CodeCampSingle\Full Network Dive_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\Storage\Projects\Project NFD\CodeCampSingle\Full Network Dive_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\Storage\Projects\Project NFD\CodeCampSingle\Full Network Dive_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\Storage\Projects\Project NFD\CodeCampSingle\Full Network Dive_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\Storage\Projects\Project NFD\CodeCampSingle\Full Network Dive_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: E:\Storage\Projects\Project NFD\CodeCampSingle\Full Network Dive_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading E:\Storage\Projects\Project NFD\CodeCampSingle\Full Network Dive_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.052 seconds
+Platform assembly: E:\Storage\Projects\Project NFD\CodeCampSingle\Full Network Dive_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\Storage\Projects\Project NFD\CodeCampSingle\Full Network Dive_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 59Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+ovr_Create(&m_session, &luid) failed: The given HMD doesn't exist.
+Failed to create Oculus Session.Compositor failed to initialize.ovr_Create(&m_session, &luid) failed: The given HMD doesn't exist.
+Failed to create Oculus Session.Compositor failed to initialize.UnloadTime: 0.849450 ms
+IsolatedStorageException: Could not find a part of the path "E:\Storage\Projects\Project NFD\CodeCampSingle\Assets\PacketData\test.csv".
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x001f9] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.IO/FileStream.cs:290 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share) [0x00000] in <filename unknown>:0 
+  at System.IO.File.OpenRead (System.String path) [0x00000] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.IO/File.cs:363 
+  at ReadInPackets..ctor (System.String fileLocation) [0x0000d] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\ReadInPackets.cs:35 
+  at Network.Start () [0x00016] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:22 
+ 
+(Filename: /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.IO/FileStream.cs Line: 290)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 250c -> priority: 1 
+  Thread -> id: 273c -> priority: 1 
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Network.Update () [0x00038] in C:\Users\Josh\Desktop\Project NFD\CodeCampSingle\network-full-dive\Assets\Scripts\Network.cs:67 
+ 
+(Filename: C:/Users/Josh/Desktop/Project NFD/CodeCampSingle/network-full-dive/Assets/Scripts/Network.cs Line: 67)
+

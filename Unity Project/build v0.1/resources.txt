@@ -1,0 +1,6 @@
+Sphere Distribution: 
+https://perswww.kuleuven.be/~u0017946/publications/Papers97/art97a-Saff-Kuijlaars-MI/Saff-Kuijlaars-MathIntel97.pdf
+Inverted Diffuse:
+http://answers.unity3d.com/questions/532565/flipping-normals-with-shader-zeroing-out.html
+Free Grids & Net Materials:
+https://kharma.unity3d.com/en/#!/content/13004

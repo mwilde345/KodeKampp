@@ -1,0 +1,10 @@
+https://perswww.kuleuven.be/~u0017946/publications/Papers97/art97a-Saff-Kuijlaars-MI/Saff-Kuijlaars-MathIntel97.pdf
+
+http://www.freeimages.com/
+
+joystick 1 button 0
+
+gravity 0
+dead .19
+sensitivity 1
+
